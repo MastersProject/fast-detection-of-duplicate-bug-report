@@ -1,6 +1,6 @@
-# fast-detection-of-duplicate-bug-report
+# Fast Detection of Duplicate Bug Report
 
 A bug tracking system continuously monitors the status of a software environment, like an Operating System (OS) or user applications. Whenever it detects an anomaly situation, it generates a bug report and sends it out to the software developer or maintenance center. However, the newly reported bug can be an already existing issue that was reported earlier and may have a solution in the master report repository at the developer side. Such instances may occur repeatedly in an overwhelming number. This poses a big challenge to the developer. Thus, early detection of duplicate bug reports has become an extremely important task. This work proposes a double-tier approach using clustering and classification, whereby it exploits Latent Dirichlet Allocation (LDA) for topic-based clustering, single and multimodal text representation using Word2Vec (W2V), FastText (FT), and Global Vectors for Word Representation (GloVe), and text similarity measure fusing Cosine and Euclidean measures. The proposed model is tested on the Eclipse dataset consisting over 80,000 bug reports, which is the amalgamation of both master and duplicate reports. This work only considers the description of the reports for detecting duplicates. The experimental results show that the proposed double-tier model achieves a recall rate of 67% for Top-N recommendations in 3 times faster computation than the conventional one-on-one classification model. 
 
 # Flow of the proposed double-tier approach
-![GitHub Logo](/images/logo.png)
+![](/flow of proposed approach/flow_diagram.png)
