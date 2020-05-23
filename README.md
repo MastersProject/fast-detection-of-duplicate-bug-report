@@ -11,5 +11,5 @@ A bug tracking system continuously monitors the status of a software environment
 ## Stage 2 : Classification 
   - Home cluster : The duplicate report jumps into the selected cluster to find the most similar master report.
   - Finding the master report:
-      * Unified similarity measure using Cosine and Euclidean similarity is used to find the similarity measure between single or                 multimodal feature of the duplicate report and the master reports in the corresponding cluster individually.
+      * Unified similarity measure using Cosine and Euclidean similarity is used to find the similarity between single or                       multimodal feature vectors of a duplicate report and the master reports in the corresponding cluster individually.
       * Top-N similarities would be selected which would result in Top-N recommended master reports.
