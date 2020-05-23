@@ -9,7 +9,7 @@ A bug tracking system continuously monitors the status of a software environment
   - Latent Dirichlet Allocation (LDA) is applied on the preprocessed master reports toform clusters.
   - Pre-trained LDA is applied on preproccesed duplicate report to find the most similar cluster in which associated master report may         exist.
 ## Stage 2 : Classification 
-  - Home cluster : The duplicate report jumps into the selected cluster to find the most similar master report.
+  - Home cluster : The duplicate report jumps into the selected Top-n cluster to find the most similar master report.
   - Finding the master report:
       * Unified similarity measure using Cosine and Euclidean similarity is used to find the similarity between single or                       multimodal feature vectors of a duplicate report and the master reports in the corresponding cluster individually.
       * Top-N similarities would be selected which would result in Top-N recommended master reports.
