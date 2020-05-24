@@ -14,7 +14,8 @@ A bug tracking system continuously monitors the status of a software environment
       * Unified similarity measure using Cosine and Euclidean similarity is used to find the similarity between single or                       multimodal feature vectors of a duplicate report and the master reports in the corresponding cluster individually.
       * Top-N similarities would be selected which would result in Top-N recommended master reports.
       
-      
+### Research Articles
+
 The research paper of this research is available [here](https://www.researchgate.net/publication/341605950_Fast_Detection_of_Duplicate_Bug_Reports_using_LDA-based_Topic_Modeling_and_Classification).
 
 The poster presented at conference: Graduate Poster Presentation, Innovation Week 2020,Lakehead University is available [here](https://www.researchgate.net/publication/339828638_Fast_Detection_of_Duplicate_Bug_Report_Using_LDA-Based_Clustering_and_Classification).
