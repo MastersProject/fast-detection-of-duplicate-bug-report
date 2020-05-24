@@ -20,3 +20,4 @@ A bug tracking system continuously monitors the status of a software environment
 
 - The poster presented at the conference: Graduate Poster Presentation, Research and Innovation Week 2020, Lakehead University is available [here](https://www.researchgate.net/publication/339828638_Fast_Detection_of_Duplicate_Bug_Report_Using_LDA-Based_Clustering_and_Classification).
 
+- The thesis report is available [here](https://www.researchgate.net/publication/341606135_Fast_Detection_of_Duplicate_Bug_Report_using_LDA-based_Topic_Modeling_and_Clustering).
